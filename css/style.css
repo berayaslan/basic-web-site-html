@@ -1,0 +1,206 @@
+/*BODY*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*HEADER*/
+.logo img{
+    width: 85px;
+}
+
+header .nav-link{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+header .nav-link:hover{
+    color: #EF5734;
+    transition: all 0.5s;
+}
+
+.navbar-social .nav-link{
+    font-size: 25px;
+}
+
+* {box-sizing:border-box}
+
+/* Slayt */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*Gösterileri gizle*/
+.mySlides {
+  display: none;
+}
+
+/* Butonlar */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Buton yeri */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Arka planı gizle */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Başlık */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Noktalar */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Geçme animasyonu */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* yandaki tablo */
+.side-bar a{
+  background-color: #FFCC2F !important;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.side-bar a.active , .side-bar a:hover{
+  background-color: #EF5734 !important;
+  border-color: #EF5734 !important;
+  color: #000;
+  transition: all 0.5s;
+}
+
+/*başlık*/
+.content{
+    min-height: calc(100vh - 275px);
+}
+
+/*FOOTER*/
+.page-footer{
+    background-color:  #543729;
+}
+
+.footer-list a{
+    color: #FFF;
+    transition: all 0.5s;
+    text-decoration: none !important;
+}
+
+.footer-list a:hover{
+    color: #EF5734;
+    transition: all 0.5s;
+}
+
+.footer-title{
+    background-color:  #EF5734;
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+/*arka plan renkleri*/
+.bg-darkgray {
+    background-color: #2d2d2d !important;
+}
+
+.bg-gray {
+    background-color: #505050 !important;
+}
+
+.bg-lightgray {
+    background-color: #999999 !important;
+}
+
+.bg-purple {
+    background-color: #642ad8 !important;
+}
+
+.bg-darkblue {
+    background-color: #193756 !important;
+}
+
+.bg-midblue {
+    background-color: #145fad !important;
+}
+
+.bg-blue {
+    background-color: #01AAEB !important;
+}
+
+.bg-lightblue {
+    background-color: #46bced !important;
+}
+
+.bg-midred {
+    background-color: #e80e0e !important;
+}
+
+.bg-red {
+    background-color: #E8505B !important;
+}
+
+.bg-lightred {
+    background-color: #ff7178 !important;
+}
+
+.bg-yellow {
+    background-color: #FFCC2F !important;
+}
+
+.bg-brown {
+    background-color: #543729!important;
+}
